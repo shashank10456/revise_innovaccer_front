@@ -1,0 +1,51 @@
+clone or download from github
+
+open expenditure_django_and html_js_files folder
+then open djangorest folder
+
+there should be a manage.py file.
+open the terminal in that location and run the following command-
+
+	python3 manage.py runserver
+
+open the link present in the terminal.
+
+if you already have CORS(cross origin resource sharing) installed on chrome turn it on else first download CORS and enable it to remove allow-cross-origin error.
+
+CORS is available for free on chrome extension.
+
+You must see USER TRIEVAL heading on the web browser.it means the server is ready.
+
+Now go back to folder where components folder is present and open run_this.html
+
+Go to browser.
+
+First you must register yourself else you wont be allowed to use.
+
+so,after registering login with the same credentials.
+
+Note: Click on the login/register link carefully ,enter the credentials and press submit.
+You must be directed lo other page which has a table with four columns.
+  
+  1. Cost of 1 item
+  2. Quantity
+  3. total
+  4. description
+
+ and click on add row to add a row and submit to submit the entered data.
+
+ if you dont have a cross-origin-error you must see alert as well as "success added " message on console.
+It means the data has been added to database.
+
+Now go to the folder where run_to_get_output.py is present.
+Open a new terminal there itself and run the following command-
+	
+	python3 run_to_get_output.py
+
+now open the bill_output.html file to see all expenditure till now in the table format.
+
+For more help see the screenshots folder to have a look at the images.
+
+
+
+
