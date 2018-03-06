@@ -45,6 +45,6 @@ cur.close()
 str1=str1+str3+str2;
 print(str1);
 
-file3=open("/home/shashank/Documents/expenditure_django_and html_js_files/djangorest/bill_output.html","w+")
+file3=open("/home/shashank/Downloads/codeAsylum/Django_related/innovaccer_front_end/djangorest/bill_output.html","w+")
 file3.write(str1);
 file3.close()
